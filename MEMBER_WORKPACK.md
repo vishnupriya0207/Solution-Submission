@@ -1,15 +1,15 @@
-# Member 3 — Subscription lifecycle & billing calculations
+# Member 2 — Authentication & API validation
 
 Based on the supplied `brightloop-360.zip` starter project.
 
 ## Assigned branch
-`feature/member-3-billing`
+`feature/member-2-auth-api`
 
 ## Your tasks
-- [ ] Integrate calculateInvoiceTotals into invoice generation.
-- [ ] Use the subscription plan interval to calculate the next billing date.
-- [ ] Prevent duplicate invoices and overpayments.
-- [ ] Test daily, weekly, monthly and yearly plans plus tax/discount scenarios.
+- [ ] Review login and registration behaviour in server/index.js.
+- [ ] Integrate validation.js into /api/auth/register and test invalid/duplicate emails.
+- [ ] Check protected routes and Admin/Staff/Customer permissions.
+- [ ] Never commit real passwords, tokens or .env values.
 
 ## Important: use the one shared GitHub repository
 This ZIP includes the starter project for reference and local testing. The
@@ -23,12 +23,12 @@ teammates' work.
 ```bash
 git clone <SHARED_REPOSITORY_URL>
 cd brightloop-360
-git switch -c feature/member-3-billing
+git switch -c feature/member-2-auth-api
 # Copy your assigned contribution files into this shared clone.
 git status
 git add <only-your-assigned-files>
 git commit -m "feat: complete assigned contribution"
-git push -u origin feature/member-3-billing
+git push -u origin feature/member-2-auth-api
 ```
 
 Then open a Pull Request into `main`. Explain what you personally changed,
