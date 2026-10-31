@@ -1,15 +1,15 @@
-# Member 2 — Authentication & API validation
+# Member 1 — Frontend UI & presentation
 
 Based on the supplied `brightloop-360.zip` starter project.
 
 ## Assigned branch
-`feature/member-2-auth-api`
+`feature/member-1-frontend`
 
 ## Your tasks
-- [ ] Review login and registration behaviour in server/index.js.
-- [ ] Integrate validation.js into /api/auth/register and test invalid/duplicate emails.
-- [ ] Check protected routes and Admin/Staff/Customer permissions.
-- [ ] Never commit real passwords, tokens or .env values.
+- [ ] Improve responsive layout and navigation in client/src/style.css.
+- [ ] Integrate the supplied formatters into appropriate dashboard/table cells.
+- [ ] Check dashboard, forms, tables, empty states and mobile layout.
+- [ ] Do not change server/index.js or package manifests.
 
 ## Important: use the one shared GitHub repository
 This ZIP includes the starter project for reference and local testing. The
@@ -23,12 +23,12 @@ teammates' work.
 ```bash
 git clone <SHARED_REPOSITORY_URL>
 cd brightloop-360
-git switch -c feature/member-2-auth-api
+git switch -c feature/member-1-frontend
 # Copy your assigned contribution files into this shared clone.
 git status
 git add <only-your-assigned-files>
 git commit -m "feat: complete assigned contribution"
-git push -u origin feature/member-2-auth-api
+git push -u origin feature/member-1-frontend
 ```
 
 Then open a Pull Request into `main`. Explain what you personally changed,

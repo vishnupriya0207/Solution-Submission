@@ -1,0 +1,1 @@
+Open brightloop-360/MEMBER_WORKPACK.md first. The full starter project is included for reference. Make contributions in the team's shared clone, not by pushing this ZIP as a separate repo.
